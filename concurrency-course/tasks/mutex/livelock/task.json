@@ -1,0 +1,7 @@
+{
+  "test_profiles": ["Debug"],
+  "test_targets": ["simulation"],
+  "lint_files": ["simulation.cpp"],
+  "submit_files": ["simulation.cpp"],
+  "forbidden_patterns": ["Put Yield-s to produce livelock"]
+}

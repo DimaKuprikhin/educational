@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "targets": [
+        "executors_unit_tests"
+      ],
+      "profiles": [
+        "Debug",
+        "FaultyThreadsASan",
+        "FaultyThreadsTSan"
+      ]
+    },
+    {
+      "targets": [
+        "executors_stress_tests"
+      ],
+      "profiles": [
+        "FaultyFibers"
+      ]
+    }
+  ],
+  "lint_files": ["await"],
+  "submit_files": ["await"],
+  "forbidden_patterns": []
+}
